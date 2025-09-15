@@ -1,0 +1,900 @@
+*{
+    font-family: 'Roboto', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    line-height: 1.8;
+}
+/*=====================================================FRONT PAGE=============================================*/
+.front-page{
+    margin: 0;
+    height: 100dvh;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/academia/images/bg_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 20px 10px 20px;
+    background-attachment: fixed;
+}
+/*=====================================================top navbar=============================================*/
+
+.navbartop{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    color: white;
+    align-items: center;
+    padding-top: 15px;
+}
+/*=====================================================Academya text=============================================*/
+.navbartop-text{
+    margin-right: 200px;
+}
+.navbartop-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    transition: 0.3s;
+}
+.navbartop-text a:hover{
+    color: #1eb2a6;
+}
+.navbartop-text h5{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/*=====================================================Text with icons=============================================*/
+
+.navbartop-icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon1{
+    font-size: 35px;
+}
+
+/*=====================================================Social media icons=============================================*/
+
+.navbartop-social{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.navbartop-social a{
+    text-decoration: none;
+    color: #1eb2a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffffff33;
+    transition: 0.3s;
+}
+.navbartop-social a:hover{
+    color: white;   
+    background-color: #1eb2a6;
+}
+
+/*=====================================================Navbar=============================================*/
+
+nav{
+    background-color: #ffffff33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin-top: 20px;
+}
+.navbar-nav{
+    gap: 30px;
+}
+.navbar-nav a{
+    color: white;
+}
+.navbar .nav-links.active {
+  color: #1eb2a6;
+  font-weight: 700; 
+}
+.nav-links{
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav-links:hover{
+    color: #1eb2a6;
+}
+.container-fluid{
+    padding: 0 0 0 12px;
+}
+.get-certificate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70px;
+    width: 200px;
+    background-color: #1eb2a6;
+    position: relative;
+}
+.get-certificate a{
+    z-index: 3;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;   
+}
+#angular{
+    height: 70px;
+    width: 100px;
+    margin-left: -150px;
+    background-color: #1eb2a6;
+    position: absolute;
+    transform: skewX(-20deg);
+}
+/*=====================================================Text on front page=============================================*/
+.card{
+    width: 475px;
+    background: transparent;
+    border: none;
+    color: white;
+    margin: 80px 0 0 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card-body h5{
+    color: #ffffffB3;
+}
+.card-button{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 5px;
+    width: 90%;
+}
+.card-button a{
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    padding: 18px 24px;
+    background: #1eb2a6;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-body a:nth-of-type(2){
+    background: white;
+    color: #1eb2a6;
+}
+.card-title{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.card-text{
+    padding-bottom: 30px;
+}
+
+
+
+/*=====================================================Benefits About Online Learning Expertise page=============================================*/
+
+.benefits-page{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+ .benefits-image{
+    height: 850px;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/academia/images/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+ }
+.benefits-text{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding-top: 90px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.benefits-text-heading h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1eb2a6;
+}
+.benefits-text-heading h1{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 45px;
+    color: #252525;
+} 
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 50px;
+}
+.benefits-box{
+    width: 534px;
+    height: 180px;
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    height: auto;
+    width: auto;
+    transition: 0.3s;
+}
+.benefits-box-icon{
+    font-size: 50px;
+    color: #1eb2a6;
+}
+.benefits-box-text h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #252525;
+}
+.benefits-box-text p{
+    color: #949494;
+}
+.benefits-box:hover{
+    background-color: #1eb2a6;
+    color: white;
+}
+.benefits-box:hover h2{
+    color: white;
+}
+.benefits-box:hover p{
+    color: #e0e0e0;
+}
+.benefits-box:hover .benefits-box-icon{
+    color: white;
+}
+
+/*=====================================================Numabrs=============================================*/
+.numbers {
+    height: fit-content;
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/academia/images/bg_3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20202069;
+    overflow: hidden;
+}
+.numbers-text{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+}
+.numbers-box{
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    height: auto;
+    width: auto;
+}
+.numbers-box-icon{
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: -7px;
+}
+.numbers-box-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+.numbers-box-text p{
+    color: #c5c5c5;
+    font-size: 16px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+.courses-page-heading h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: #1eb2a6;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.courses-page-heading h1{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 45px;
+    color: #252525;
+    text-align: center;
+    padding-top: 20px;
+    padding: 0px 10px;
+   
+} 
+/*=====================================================courses cards=============================================*/
+.card-slider{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.course-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.course-card{
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 25px;
+}
+.course-card-heading{
+    display: flex;
+    gap: 10px;
+    width: auto;
+}
+.course-icon{
+    font-size: 35px;
+    color: white;
+    background-color: #1eb2a6;
+    height: 80px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course-heading{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.course-heading h1{
+    width: auto;
+    font-size: 26px;
+    font-weight: 600;
+}
+.course-heading p{
+    font-size: 16px;
+    color: #1eb2a6;
+}
+#jaden{
+    color: #6b6b6b;
+    font-weight: 600;
+}
+.course-heading img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top: -5px;
+}
+.course-heading a{
+    text-decoration: none;
+    color: #1eb2a6;
+    font-size: 13px;
+}
+.course-card h2{
+    font-size: 16px;
+    color: #1eb2a6;
+    width: auto;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    background-color: #f8f8f8;
+    margin-top: 10px;
+}
+.course-card button{
+    font-size: 12px;
+    padding: 16px 12px;
+    width: 100%;
+    text-align: center;
+    height: 52px;
+    color: #1eb2a6;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid #1eb2a6;
+    transition: 0.3s;
+
+}
+.course-card button:hover{
+    color: #ffffff;
+    background-color: #1eb2a6;
+}
+
+/*=====================================================courses cards slide buttons=============================================*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  width: auto;
+  height: auto;
+}
+.carousel-control-prev-icon::before {
+  content: '‹';          
+  font-size: 2.5rem;     
+ color: #1eb2a6; 
+}
+.carousel-control-next-icon::before {
+  content: '›';          
+  font-size: 2.5rem;     
+ color: #1eb2a6;            
+}
+.carousel-indicators [data-bs-target] {
+  background-color: gray;
+  width: 30px;
+  height: 3px;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  background-color: #1eb2a6;
+}
+
+
+/*=====================================================courses cards below the slider=============================================*/
+
+.boxes2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+}
+.courses2-box{
+    width: auto;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    transition: 0.3s;
+}
+.courses2-box-icon{
+    width: auto;
+    font-size: 50px;
+    color: #1eb2a6;
+}
+.courses2-box-text{
+    width: auto;
+}
+.courses2-box-text h2{
+    width: auto;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #252525;
+}
+.courses2-box-text p{
+    width: auto;
+    color: #1eb2a6;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.courses2-box:hover{
+    background-color: #1eb2a6;
+    color: white;
+}
+.courses2-box:hover h2{
+    color: white;
+}
+.courses2-box:hover .courses2-box-icon{
+    color: white;
+}
+
+/*=====================================================students cards below the slider=============================================*/
+
+.student-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.student-card{
+    padding: 25px;
+    background-color: white;
+}
+.student-card:nth-child(2){
+    background-color: #1eb2a6;
+    color: white;
+}
+.student-card:nth-child(2) h5{
+    color: #ffffff;
+    font-weight: 700;
+}
+.student-card:nth-child(2) p{
+    margin-top: 30px;
+    color: #eeeeee;
+}
+.student-id{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+}
+
+.student-id img{
+    height: 100px;
+    border-radius: 50%;
+}
+.student-id h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+.student-id h5{
+    color: #1eb2a6;
+    font-size: 13px;
+    font-weight: 700;
+}
+.student-card p{
+    margin-top: 30px;
+    color: #6b6b6b;
+}
+
+
+/*=====================================================our blog page three cards=============================================*/
+
+
+.blog-cards{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding-bottom: 50px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+.blog-card{
+    width: fit-content; 
+    background-color: #ffffff;
+    gap: 0;
+    margin: 0;
+}
+.blog-card-body{
+    padding: 20px;
+    margin: 0;
+}
+.blog-card-body p:nth-child(1){
+    color: #999999;
+    text-transform: uppercase;
+    font-size: 13px
+}
+.blog-icons i{
+    color: #1eb2a6;
+}
+.blog-card-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.blog-card-title:hover{
+    color: #1eb2a6;
+}
+.blog-card-body p:nth-child(2){
+    color: #999999;
+    margin-top: 10px;
+}
+
+/*=====================================================Price boxes cards=============================================*/
+
+
+.price-boxes{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.price-card{
+    background-color: #ffffff;
+    width: auto;
+    padding: 35px;
+}
+.price-card-title{
+   color: #252525;
+   font-size: 14px;
+   font-weight: 900;
+   text-transform: uppercase;
+}
+.price-number{
+    font-size: 50px;
+    color: #1eb2a6;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.price-card-text{
+    color: #c5c5c5;
+    padding-bottom: 30px;
+}
+.price-button{
+    background-color: transparent;
+    border: 1px solid #1eb2a6;
+    color: #1eb2a6;
+    width: 100%;
+    padding: 10px;
+    transition: 0.3s;
+}
+.price-button:hover{
+    background-color: #1eb2a6;
+    color: white;
+}
+/*=====================================================News letter cards=============================================*/
+
+
+.newsletter-box{
+    width: 100%;
+   background-color: #1eb2a6;
+   padding: 50px;
+}
+.newsletter-text h1{
+    font-size: 26px;
+    color: white;
+    font-weight: 500;
+}
+.newsletter-text p{
+    font-size: 16px;
+    color: #e4e4e4;
+    font-weight: 500;
+}
+.newsletter-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+.newsletter-email{
+    width: fit-content;
+    border-bottom: 1px solid white;
+    border-bottom-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newsletter-email input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    width: 220px;
+}
+.newsletter-email input::placeholder{
+    color: rgb(228, 228, 228);
+}
+.newsletter-email button{
+    font-weight: 100;
+    border: none;
+    color: white;
+    background-color: transparent;
+}
+/*=====================================================FOOTER=============================================*/
+
+footer{
+    height: auto;
+}
+.footer-boxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: baseline;
+    height: fit-content;
+    padding-top: 60px;
+}
+
+.content1{
+    width: auto;
+    height: 350px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.content1-heading{
+    padding-bottom: 30px;
+}
+.content1-heading a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 800;
+}
+.sub-heading{
+    color: #1eb2a6;
+    font-size: 12px;
+    font-weight: 700;
+}
+.content1 p{
+    font-size: 16px;
+    color: #999999;
+    padding-bottom: 20px;
+}
+.content1 ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+.social-icons{
+    padding: 10px;
+    background-color: #1eb2a6;
+    color: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+.social-icons:hover{
+    color: #1eb2a6;
+    background-color: transparent;
+    border: 1px solid #1eb2a6;
+}
+
+/*=====================================================FOOTER=============================================*/
+
+
+
+.content2{
+    width: auto;
+    height: 350px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.footer-box h2{
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 40px;
+}
+.content2 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+.page-links{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    color: #5e5e5e;
+    transition: 0.3s;
+}
+.page-links i{
+    font-size: 10px;
+    color: #1eb2a6;
+}
+.page-links:hover{
+    color: #1eb2a6;
+}
+
+/*============================================================================================================*/
+
+.content3{
+    width: auto;
+    height: 350px;
+}
+.recent-post{
+    display: flex;
+    padding-bottom: 30px;
+}
+.post-img img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.post-text{
+    padding-left: 20px;
+}
+.post-title{
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0;
+    margin: 0;
+}
+.post-title:hover{
+    color: #1eb2a6;
+}
+.post-icons{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #1eb2a6;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/*=====================================================FOOTER=============================================*/
+
+.content4{
+    width: auto;
+    height: 350px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+
+}
+.content4 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+.content4 ul i{
+    color: #1eb2a6;
+    padding-right: 40px;
+}
+.content4 ul li{
+    display: flex;
+}
