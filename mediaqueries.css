@@ -1,0 +1,255 @@
+  @media(max-width: 991.98px) {
+      .navbartop-icon {
+          display: none;
+      }
+
+      .container-fluid {
+          margin-top: -8px;
+          padding: 0 20px 0 0;
+          background-color: #12776f;
+          z-index: 1000;
+          overflow: hidden;
+      }
+
+      #angular {
+          margin-left: 150px;
+          transform: skewX(20deg);
+      }
+
+      .navbar-nav {
+          padding: 20px;
+      }
+
+      .front-page {
+          padding: 10px 0;
+      }
+
+      .navbartop {
+          justify-content: space-between;
+          padding: 0 20px;
+      }
+
+      .navbartop-text {
+          margin-right: 0;
+      }
+  }
+
+
+
+
+
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+      .card {
+          margin-top: 250px;
+          width: 500px;
+      }
+
+      .numbers-text {
+          width: 90%;
+      }
+
+      .numbers-box {
+          padding: 15px;
+          width: fit-content;
+      }
+
+      .numbers-box-icon {
+          font-size: 40px;
+      }
+
+      .numbers-box-text h2 {
+          font-size: 33px;
+      }
+
+      .numbers-box-text p {
+          font-size: 16px;
+      }
+
+
+  }
+
+
+
+
+
+
+
+
+
+  @media (max-width: 575.98px) {
+    .card {
+        margin-left: 10px;
+          margin-top: 30px;
+          width: 300px;
+      }
+      .benefits-image {
+          height: 550px;
+      }
+
+      .benefits-text {
+          padding-top: 40px;
+          padding-bottom: 20px;
+      }
+
+      .benefits-text-heading h5 {
+          font-size: 15px;
+          text-align: center;
+      }
+
+      .benefits-text-heading h1 {
+          font-size: 30px;
+          text-align: center;
+      }
+
+      .courses-page-heading h5 {
+          font-size: 15px;
+      }
+
+      .courses-page-heading h1 {
+          font-size: 25px;
+      }
+
+      .overlay {
+          padding: 30px 0px 20px 0px;
+      }
+
+      .numbers-box {
+          padding: 15px;
+      }
+
+      .numbers-box-icon {
+          font-size: 35px;
+      }
+
+      .numbers-box-text h2 {
+          font-size: 30px;
+      }
+
+      .numbers-box-text p {
+          font-size: 15px;
+      }
+
+      .course-icon {
+          height: 55px;
+          width: 130px;
+          font-size: 25px;
+      }
+
+      .course-heading h1 {
+          font-size: 18px;
+      }
+
+      .course-heading p {
+          font-size: 13px;
+      }
+
+      .course-card h2 {
+          font-size: 13.5px;
+      }
+
+      .course-card button {
+          padding: 12px;
+          height: 40px;
+      }
+
+      .courses2-box-icon {
+          font-size: 35px;
+      }
+
+      .courses2-box-text h2 {
+          font-size: 18px;
+      }
+
+      .courses2-box-text p {
+          font-size: 12px;
+      }
+
+      .student-id img {
+          height: 70px;
+      }
+
+      .student-id h2 {
+          font-size: 18px;
+      }
+
+      .student-id h5 {
+          font-size: 12px;
+      }
+
+      .student-card p {
+          font-size: 14px;
+      }
+
+      .blog-cards {
+          width: 85%;
+          padding-top: 30px;
+      }
+
+      .price-card {
+          padding: 35px;
+      }
+
+      .blog-card-body p:nth-child(1) {
+          font-size: 12px;
+      }
+
+      .blog-card-title {
+          font-size: 20px;
+      }
+
+      .blog-card-body p:nth-child(2) {
+          font-size: 14px;
+      }
+
+      .price-card {
+          padding: 25px;
+      }
+
+      .price-number {
+          font-size: 45px;
+          padding-bottom: 10px;
+      }
+
+      .price-card-text {
+          padding-bottom: 10px;
+      }
+
+      .navbartop-social {
+          display: none;
+      }
+
+      .get-certificate {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          height: 70px;
+          width: 160px;
+          background-color: #1eb2a6;
+          position: relative;
+      }
+
+      .get-certificate a {
+          font-size: 15px;
+          color: white;
+      }
+
+      #angular {
+          width: 100px;
+      }
+
+      #angular {
+          width: 80px;
+          margin-left: 100px;
+          transform: skewX(20deg);
+          z-index: 2;
+      }
+  }
+
+
+ @media (width: 320px){
+    .front-page{
+    height: fit-content;
+}
+ } 
